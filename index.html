@@ -1,23 +1,9 @@
 <!DOCTYPE html>
 <html lang="en-US">
 <head>
-  <script src="http://ajax.googleapis.com/ajax/libs/angularjs/1.4.8/angular.min.js"></script>
-  <script src="require.js"></script>
+  <script src="Library/angular.min.js"></script>
   <script src="consent.js"></script>
-  <script src="dummyData.js"></script>
 </head>
-<body>
-<header>
-
-</header>
-<div class="main">
-  <div ng-app="consentForm">
-    {{ 'yet' + '!'}}
-    <consentSignature language="english"></consentSignature>
-    <consentQuestions />
-    <consentReview />
-    <consentThankYou />
-  </div>
-<footer></footer>
+<body ng-app="consentForm">
 </body>
 </html>
